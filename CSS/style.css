@@ -27,7 +27,7 @@
 /* header and nav style */
 .header{
     background-color: #fff8f3;
-    background-image: url('/Image/header_bg.png'),url('/Image/developer.png');
+    background-image: url('/images/header_bg.png'),url('/images/developer.png');
     background-repeat: no-repeat;
     background-position: bottom right,left;
 }
