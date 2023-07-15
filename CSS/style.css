@@ -75,18 +75,19 @@ main{
     max-width: 1140px;
     margin: 0 auto;
 }
+section{margin-top: 130px;}
 /* About Section Style */
 
 .about-me{
-    margin-top: 130px;
+
     background-color: #fff8f3;
     border-radius: 10px;
     padding: 130px 150px;
-    text-align: center;
+    
 }
 .section-title{
-    
-    margin-bottom: 30px;
+    text-align: center;
+    margin-bottom: 130px;
     font-size: 35px;
     font-weight: 700;
 }
@@ -110,4 +111,100 @@ justify-content: space-around;
     color: #474747;
    
     font-weight: 700;
+}
+
+/* What I do styles */
+
+
+
+.skills-container{
+    margin-top: 70px;
+    display: flex;
+
+    gap: 24px;
+}
+.skill{
+    width: 265px;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    padding: 30px;
+   
+    
+}
+.skill-title{
+    margin: 30px 0 20px;
+    font-size: 20px;
+    font-weight: 700;
+}
+.skill-description{
+    color: #757575;
+
+}
+
+/* Resume Section Style */
+
+.resume-content-container{
+    display: flex;
+    gap:24px
+}
+.resume-title{
+    font-size: 30px;
+    font-weight: 700;
+    color: #474747;
+    margin-bottom: 30px;
+}
+.resume-item{
+    padding:30px 0;
+}
+.resume-item-title{
+    font-size: 24px;
+    font-weight: 700;
+    color:#474747;
+}
+.resume-item-subtitle{
+    font-size: 20px;
+    font-weight: 700;
+    color: #757575;
+    margin:10px 0 20px;
+}
+.resume-item-desc{
+    color: #757575;
+}
+.resume-button{
+    margin-top:50px;
+    text-align: center;
+}
+
+/* contact Section style */
+.contact{
+    display: flex;
+    gap: 100px;
+    background-color: #FFF8F3;
+    padding: 130px 230px;
+}
+.contact .section-title{
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.contact input,textarea{
+    margin-bottom: 24px;
+    width: 100%;
+    background-color: #FFF;
+    border: none;
+    border-radius: 5px;
+    padding: 18px 30px;
+}
+/* .contact input{
+    height: 64px;
+} */
+.contact textarea{
+    height: 150px;
+    resize: none;
+}
+
+
+.contact a{
+    text-decoration: none;
 }
